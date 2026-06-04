@@ -97,7 +97,7 @@ export const projects = [
       "React web app for exploring recent and popular movie trailers. It consumes The Movie Database API and focuses on search, discovery, and responsive UI.",
     skills: ["TypeScript", "React", "Bootstrap", "Axios", "API", "Node.js", "Responsive Web Design"],
     repository: "https://github.com/PabloLopez23/Best-Movie-Trailers",
-    live: "https://pablolopezmovies.netlify.app/",
+    live: "https://pablolopezmovies.vercel.app/",
     liveLabel: "Live site",
     icon: Film,
   },
