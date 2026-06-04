@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://pablolopezporfolio.netlify.app"),
+  metadataBase: new URL("https://pablo-lopez-next-portfolio.vercel.app"),
   title: "Pablo Lopez | Cybersecurity Analyst",
   description:
     "Portfolio of Pablo Lopez, a Cybersecurity Analyst focused on Blue Team, cloud security, and secure software development.",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Pablo Lopez | Cybersecurity Analyst",
     description:
       "Blue Team, cloud security, and secure software development portfolio.",
-    url: "https://pablolopezporfolio.netlify.app",
+    url: "https://pablo-lopez-next-portfolio.vercel.app",
     siteName: "Pablo Lopez Portfolio",
     images: [{ url: "/mifoto.png", width: 420, height: 420 }],
     locale: "en_US",
