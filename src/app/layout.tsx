@@ -3,29 +3,30 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://pablo-lopez-next-portfolio.vercel.app"),
-  title: "Pablo Lopez | Cybersecurity Analyst",
+  title: "Pablo Lopez | Full Stack Developer",
   description:
-    "Portfolio of Pablo Lopez, a Cybersecurity Analyst focused on Blue Team, cloud security, and secure software development.",
+    "Portfolio de Pablo Lopez, desarrollador Full Stack especializado en React, Next.js, Node.js, TypeScript, automatización e integración de inteligencia artificial.",
   keywords: [
     "Pablo Lopez",
-    "Cybersecurity Analyst",
-    "Blue Team",
-    "Cloud Security",
-    "Secure Software Development",
+    "Full Stack Developer",
+    "Frontend Developer",
+    "Backend Developer",
     "React",
     "Next.js",
+    "Node.js",
     "TypeScript",
-    "Linux",
+    "Automatización",
+    "Inteligencia Artificial",
   ],
   authors: [{ name: "Pablo Lopez" }],
   openGraph: {
-    title: "Pablo Lopez | Cybersecurity Analyst",
+    title: "Pablo Lopez | Full Stack Developer",
     description:
-      "Blue Team, cloud security, and secure software development portfolio.",
+      "Desarrollo frontend, backend, automatización e integración de inteligencia artificial.",
     url: "https://pablo-lopez-next-portfolio.vercel.app",
-    siteName: "Pablo Lopez Portfolio",
+    siteName: "Portfolio de Pablo Lopez",
     images: [{ url: "/mifoto.png", width: 420, height: 420 }],
-    locale: "en_US",
+    locale: "es_AR",
     type: "website",
   },
   icons: {
@@ -39,7 +40,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full">
+    <html lang="es" className="h-full">
       <body className="min-h-full">{children}</body>
     </html>
   );

@@ -2,10 +2,10 @@ import Image from "next/image";
 import {
   ArrowUpRight,
   BriefcaseBusiness,
+  Code2,
   Download,
   ExternalLink,
   GitFork,
-  Languages,
   Mail,
   MapPin,
   Send,
@@ -69,11 +69,11 @@ export default function Home() {
         </a>
 
         <span className="language-pill">
-          <Languages size={17} aria-hidden="true" />
-          English
+          <Code2 size={17} aria-hidden="true" />
+          Full Stack
         </span>
 
-        <nav aria-label="Primary navigation">
+        <nav aria-label="Navegación principal">
           {navItems.map((item) => {
             const Icon = item.icon;
 
@@ -89,14 +89,14 @@ export default function Home() {
         <p className="sidebar-footer">© 2026 Pablo Lopez</p>
       </aside>
 
-      <div className="social-rail" aria-label="Social links">
-        <a href={profile.github} target="_blank" rel="noreferrer" aria-label="GitHub profile">
+      <div className="social-rail" aria-label="Redes y contacto">
+        <a href={profile.github} target="_blank" rel="noreferrer" aria-label="Perfil de GitHub">
           <GitFork size={20} />
         </a>
-        <a href={profile.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn profile">
+        <a href={profile.linkedin} target="_blank" rel="noreferrer" aria-label="Perfil de LinkedIn">
           <BriefcaseBusiness size={20} />
         </a>
-        <a href={`mailto:${profile.email}`} aria-label="Email Pablo Lopez">
+        <a href={`mailto:${profile.email}`} aria-label="Correo de Pablo Lopez">
           <Mail size={20} />
         </a>
       </div>
@@ -105,7 +105,7 @@ export default function Home() {
         <section id="home" className="hero-section">
           <div className="hero-copy">
             <div className="status-row">
-              <span>Available for security-focused roles</span>
+              <span>Disponible para oportunidades en desarrollo</span>
               <span className="location-chip">
                 <MapPin size={15} />
                 {profile.location}
@@ -120,11 +120,11 @@ export default function Home() {
             <div className="hero-actions">
               <ActionLink href={profile.resume}>
                 <Download size={18} />
-                Resume
+                Ver CV
               </ActionLink>
               <ActionLink href="#contact" variant="secondary">
                 <Send size={18} />
-                Contact
+                Contacto
               </ActionLink>
             </div>
           </div>
@@ -133,14 +133,14 @@ export default function Home() {
             <div className="portrait-wrap">
               <Image
                 src="/mifoto.png"
-                alt="Portrait of Pablo Lopez"
+                alt="Retrato de Pablo Lopez"
                 width={420}
                 height={420}
                 priority
               />
             </div>
 
-            <div className="stack-grid" aria-label="Main technical stack">
+            <div className="stack-grid" aria-label="Stack técnico principal">
               {stack.map((tech) => {
                 const Icon = tech.icon;
 
@@ -156,16 +156,16 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="intro-band" aria-label="Professional direction">
+        <section className="intro-band" aria-label="Objetivo profesional">
           <ShieldCheck size={28} aria-hidden="true" />
           <p>{profile.direction}</p>
         </section>
 
         <section id="experience" className="content-section">
           <SectionHeading
-            kicker="Experience"
-            title="Work and training that shaped my profile"
-            description="Remote collaboration, application development, and security-oriented technical growth."
+            kicker="Experiencia"
+            title="Productos, equipos y aprendizajes que formaron mi perfil"
+            description="Experiencia en frontend, backend, trabajo remoto, automatización e integración de inteligencia artificial."
           />
 
           <div className="experience-list">
@@ -195,9 +195,9 @@ export default function Home() {
 
         <section id="projects" className="content-section">
           <SectionHeading
-            kicker="Projects"
-            title="Selected builds and applied practice"
-            description="The new portfolio keeps your previous projects, rewritten in English and presented with a stronger visual system."
+            kicker="Proyectos"
+            title="Soluciones web que diseñé y desarrollé"
+            description="Una selección de productos propios, proyectos colaborativos y sitios responsive publicados."
           />
 
           <div className="project-grid">
@@ -209,7 +209,7 @@ export default function Home() {
                   <div className="project-image">
                     <Image
                       src={project.image}
-                      alt={`Screenshot of ${project.title}`}
+                      alt={`Vista responsive de ${project.title}`}
                       fill
                       sizes="(min-width: 1180px) 520px, (min-width: 768px) 50vw, 100vw"
                     />
@@ -228,7 +228,7 @@ export default function Home() {
                     <div className="project-actions">
                       <a href={project.repository} target="_blank" rel="noreferrer">
                         <GitFork size={17} />
-                        Repository
+                        Repositorio
                       </a>
                       <a href={project.live} target="_blank" rel="noreferrer">
                         <ExternalLink size={17} />
@@ -244,9 +244,9 @@ export default function Home() {
 
         <section className="content-section">
           <SectionHeading
-            kicker="Education"
-            title="Cybersecurity focus and technical foundation"
-            description="A concise view of training plus the areas currently guiding your GitHub and portfolio narrative."
+            kicker="Formación"
+            title="Base Full Stack y aprendizaje continuo"
+            description="Desarrollo web como especialidad, complementado con IA, automatización, inglés y fundamentos de ciberseguridad."
           />
 
           <div className="education-focus-grid">
@@ -268,7 +268,7 @@ export default function Home() {
             </div>
 
             <div className="focus-panel">
-              <h3>Current focus</h3>
+              <h3>Enfoque actual</h3>
               <ul className="tag-list">
                 {focusAreas.map((area) => (
                   <li key={area}>{area}</li>
@@ -280,18 +280,18 @@ export default function Home() {
 
         <section id="contact" className="contact-section">
           <div>
-            <p>Contact</p>
-            <h2>Let us build secure, useful software.</h2>
+            <p>Contacto</p>
+            <h2>Construyamos productos web útiles y escalables.</h2>
             <span>
-              I am open to Blue Team, SOC, cloud security, secure development, and
-              technical security support opportunities.
+              Estoy abierto a oportunidades frontend, backend y full stack, además de
+              proyectos de automatización e integración de inteligencia artificial.
             </span>
           </div>
 
           <div className="contact-actions">
             <ActionLink href={`mailto:${profile.email}`}>
               <Mail size={18} />
-              Email
+              Correo
             </ActionLink>
             <ActionLink href={profile.linkedin} variant="secondary">
               <BriefcaseBusiness size={18} />

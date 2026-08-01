@@ -1,6 +1,14 @@
-# Pablo Lopez Next.js Portfolio
+# Portfolio de Pablo Lopez
 
-Modern portfolio for Pablo Lopez, focused on cybersecurity, Blue Team, cloud security, and secure software development.
+Portfolio profesional de Pablo Lopez, desarrollador Full Stack con experiencia en frontend, backend, automatización e integración de inteligencia artificial.
+
+## Propuesta profesional
+
+- Desarrollo frontend con React, Next.js y TypeScript.
+- Desarrollo backend, APIs e integración de servicios con Node.js.
+- Automatización de procesos e incorporación de inteligencia artificial.
+- Creación de productos responsive, optimizados y listos para producción.
+- Formación complementaria en desarrollo seguro y ciberseguridad.
 
 ## Stack
 
@@ -8,29 +16,31 @@ Modern portfolio for Pablo Lopez, focused on cybersecurity, Blue Team, cloud sec
 - React 19
 - TypeScript
 - Tailwind CSS 4
-- lucide-react
+- Lucide React
 
-## Local Development
+## Contenido
+
+- Experiencia en Tito Agencia IA, Zelcar Games, No Country y Henry.
+- Proyectos propios, colaborativos y sitios profesionales publicados.
+- Formación Full Stack, inglés y ciberseguridad complementaria.
+- Enlaces a GitHub, LinkedIn, CV y correo.
+
+## Desarrollo local
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Abrir [http://localhost:3000](http://localhost:3000).
 
-## Checks
+## Verificación
 
 ```bash
 npm run lint
 npm run build
 ```
 
-## Content Source
+## Sitio publicado
 
-The content was migrated and translated from the previous Astro portfolio:
-
-- Experience: No Country and Henry
-- Projects: Best Movie Trailers, Searcher GitHub, Portfolio Dev, BarberShop
-- Education: Platzi software development, cybersecurity, and English tracks
-- Contact: GitHub, LinkedIn, and email
+[pablo-lopez-next-portfolio.vercel.app](https://pablo-lopez-next-portfolio.vercel.app/)
