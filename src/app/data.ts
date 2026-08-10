@@ -69,7 +69,7 @@ export const experience = [
   {
     role: "Fundador y desarrollador",
     company: "Tito Agencia IA",
-    date: "ene. 2026 - actualidad",
+    date: "2026",
     title: "Soluciones con IA y automatización",
     link: "https://titoagenciaia.netlify.app/",
     description:
@@ -81,7 +81,7 @@ export const experience = [
     company: "Zelcar Games",
     date: "2025",
     title: "Desarrollo de servicios y lógica de negocio",
-    link: "https://www.linkedin.com/in/pablo-l%C3%B3pez-39226a275/details/experience/",
+    link: "https://www.linkedin.com/company/zelcar-games-llc/posts/?feedView=all",
     description:
       "Experiencia de desarrollo backend en un entorno colaborativo, trabajando sobre servicios, lógica de negocio e integración de datos para productos digitales.",
     highlights: ["Backend", "APIs", "Integración", "Trabajo en equipo"],
