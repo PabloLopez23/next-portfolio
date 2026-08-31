@@ -25,7 +25,7 @@ export const metadata: Metadata = {
       "Desarrollo frontend, backend, automatización e integración de inteligencia artificial.",
     url: "https://pablo-lopez-next-portfolio.vercel.app",
     siteName: "Portfolio de Pablo Lopez",
-    images: [{ url: "/mifoto.png", width: 420, height: 420 }],
+    images: [{ url: "/mifoto.avif", width: 420, height: 420 }],
     locale: "es_AR",
     type: "website",
   },

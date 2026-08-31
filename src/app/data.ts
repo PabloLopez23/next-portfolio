@@ -90,7 +90,7 @@ export const experience = [
     role: "Frontend Developer",
     company: "No Country",
     date: "2024",
-    title: "BarberShop",
+    title: "App Web Barberia",
     link: "https://www.linkedin.com/company/nocountrytalent/posts/?feedView=all",
     description:
       "Simulación laboral con un equipo remoto multidisciplinario. Participé en una aplicación para gestionar turnos y servicios de barbería, desarrollando vistas, integraciones y el flujo de reservas.",
@@ -111,7 +111,7 @@ export const experience = [
 export const projects = [
   {
     title: "Tito Agencia IA",
-    image: "/tito-agencia-ia-responsive.png",
+    image: "/tito-agencia-ia-responsive.avif",
     description:
       "Sitio comercial de mi emprendimiento de automatización e inteligencia artificial. Presenta servicios, casos de uso y canales de contacto con una experiencia responsive y optimizada.",
     skills: ["Next.js", "TypeScript", "IA", "Automatización", "SEO", "Netlify"],
@@ -122,7 +122,7 @@ export const projects = [
   },
   {
     title: "Clínica Dental",
-    image: "/clinica-dental.png",
+    image: "/clinica-dental.avif",
     description:
       "Landing profesional para una clínica dental con servicios, beneficios, llamados a la acción y contacto. Los datos fueron reemplazados por información ficticia para proteger al cliente real.",
     skills: ["Next.js", "TypeScript", "React", "Tailwind CSS", "Responsive", "Netlify"],
@@ -133,7 +133,7 @@ export const projects = [
   },
   {
     title: "Estética Médica",
-    image: "/estetica-medica-responsive.png",
+    image: "/estetica-medica-responsive.avif",
     description:
       "Web premium para un centro de estética médica, enfocada en confianza, claridad de servicios y conversión. Los datos visibles son ficticios para preservar la privacidad del cliente.",
     skills: ["Next.js", "TypeScript", "React", "CSS", "SEO", "Responsive"],
@@ -144,7 +144,7 @@ export const projects = [
   },
   {
     title: "GYM",
-    image: "/gym-responsive.png",
+    image: "/gym-responsive.avif",
     description:
       "Landing responsive para un gimnasio, con propuesta de valor, actividades, galería y contacto. La identidad y los datos públicos fueron adaptados con información ficticia.",
     skills: ["Next.js", "TypeScript", "React", "CSS", "Optimización", "Responsive"],
@@ -155,7 +155,7 @@ export const projects = [
   },
   {
     title: "Best Movie Trailers",
-    image: "/best-movie-trailers-responsive.png",
+    image: "/best-movie-trailers-responsive.avif",
     description:
       "Aplicación React para descubrir películas y explorar trailers. Consume The Movie Database API e incluye búsqueda, navegación y una interfaz adaptada a distintos dispositivos.",
     skills: ["TypeScript", "React", "Bootstrap", "Axios", "API REST", "Responsive"],
@@ -165,19 +165,19 @@ export const projects = [
     icon: Film,
   },
   {
-    title: "BarberShop",
-    image: "/app-barberia-responsive.png",
+    title: "App Web Barberia",
+    image: "/app-barberia-responsive.avif",
     description:
       "Proyecto colaborativo de No Country para gestionar turnos de barbería. Trabajé en vistas frontend, integración con servicios backend y el flujo de reservas.",
     skills: ["React", "TypeScript", "Node.js", "Redux", "Tailwind CSS", "APIs"],
     repository: "https://github.com/PabloLopez23/barbershop",
-    live: "https://drive.google.com/file/d/1H1S3dTU0ZS_Fl6zovThnI_87PoGG_NbX/view?usp=sharing",
+    live: "https://youtu.be/Hx8DrkWHM2k?si=fHqUbEp9GpfWCVsW",
     liveLabel: "Ver presentación",
     icon: Braces,
   },
   {
     title: "Searcher GitHub",
-    image: "/searcher-github-responsive.png",
+    image: "/searcher-github-responsive.avif",
     description:
       "Aplicación React para buscar usuarios de GitHub y consultar repositorios, seguidores y datos públicos mediante la API de la plataforma.",
     skills: ["React", "TypeScript", "CSS", "Axios", "GitHub API", "Responsive"],

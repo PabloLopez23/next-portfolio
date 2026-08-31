@@ -132,7 +132,7 @@ export default function Home() {
           <div className="hero-visual">
             <div className="portrait-wrap">
               <Image
-                src="/profile.webp"
+                src="/profile.avif"
                 alt="Retrato de Pablo Lopez"
                 width={420}
                 height={420}
